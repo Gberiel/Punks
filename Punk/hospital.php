@@ -6,7 +6,27 @@
     <title>Hospital Tucumán</title>
     <link rel="stylesheet" href="./css/Punk.css">
 </head>
-<body> 
+<body>
+
+    <div class="top-bar">
+        <a href="#">Inicio</a>
+        <div class="dropdown">
+            <a href="#Q1">Quirofanos</a>
+            <div class="dropdown-content">
+                <a href="#Q1">Quirofano 1</a>
+                <a href="#Q2">Quirofano 2</a>
+                <a href="#Q3">Quirofano 3</a>
+                <a href="#Q4">Quirofano 4</a>
+                <a href="#Q5">Quirofano 5</a>
+                <a href="#Q6">Quirofano 6</a>
+                <a href="#Q7">Quirofano 7</a>
+                <a href="#Q8">Quirofano 8</a>
+            </div>
+        </div>
+        <a href="index.php">Log-Out</a>
+    </div>
+
+
 
     <div class="hospital">
         <div class="quirofano">
@@ -20,6 +40,9 @@
             <button>Descargar historial medico </button> <!-- Cambiar por PHP BD -->
             <h3>Enfermero a cargo: Julian Serrano</h3> <!-- Cambiar por PHP BD -->
         </div>
+    </div>
+    <div class="elemento-abajo">
+        Este elemento está siempre abajo.
     </div>
 </body>
 </html>
