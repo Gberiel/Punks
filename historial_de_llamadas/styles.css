@@ -1,0 +1,29 @@
+/* styles.css */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.datos-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dato {
+    width: 50%; /* Divide en dos columnas */
+    box-sizing: border-box; /* Evita que los bordes afecten el ancho */
+    padding: 10px; /* Espacio entre los datos */
+    border: 1px solid #ccc; /* Borde alrededor de cada dato */
+    margin-right: 10px; /* Espacio entre los datos */
+    margin-bottom: 10px; /* Espacio entre las filas */
+}
