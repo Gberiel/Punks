@@ -1,0 +1,75 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado (título) */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilo para el enlace "Agregar Llamada" */
+a {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 5px;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las celdas de la tabla */
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Estilo para las filas impares de la tabla */
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para el mensaje de confirmación o error */
+.message {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Estilo para el formulario (si es necesario) */
+/* Agrega estilos para el formulario si planeas agregar uno en tu página */
+
+/* Estilo para el pie de página (si es necesario) */
+/* Agrega estilos para el pie de página si planeas agregar uno en tu página */
+
+/* Estilo para los elementos <p> que muestran los datos */
+p {
+    margin: 0; /* Elimina el margen predeterminado */
+    padding-right: 10px; /* Agrega un espacio a la derecha de cada elemento <p> */
+    display: inline-block; /* Muestra los elementos en línea y permite que estén uno al lado del otro */
+}
+
+th ,td {
+    border: 1px solid #00000047;
+}
