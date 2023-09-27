@@ -29,7 +29,7 @@
 <body id="inicio">
 <!-- Botonera -->
     <div class="top-bar">
-        <a href="#inicio">Inicio</a>
+        <a href="historial_llamadas.php">Historial Llamadas</a>
         <a href="adm.php">Administracion</a>
         <a href="hospital.php">Quirofanos</a>
         <a href="index.php">Log-Out</a>

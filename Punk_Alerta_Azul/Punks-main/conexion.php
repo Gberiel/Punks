@@ -1,3 +1,3 @@
-<?php 
-$conexion = mysqli_connect("localhost","root","","Punk") or exit ("No se pudo rei");
+<?php
+$datos_bd = mysqli_connect("localhost","root","","Punk") or exit ("no se puede conectar");
 ?>
