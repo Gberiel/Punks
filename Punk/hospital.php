@@ -12,6 +12,7 @@
 
     <div class="top-bar">
         <a href="#inicio">Inicio</a>
+        <a href="historial_llamadas.php">Historial de llamadas</a>
         <a href="adm.php">Administracion</a>
         <div class="dropdown">
             <a href="#Q1">Areas</a>

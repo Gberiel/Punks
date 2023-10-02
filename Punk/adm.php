@@ -66,7 +66,7 @@
     </div>
 <!-- //Lista -->
 <!-- Lista --> 
-<div class="mostrar">
+<div class="mostrar">   
     <h1 id="titulo">Medicos</h1>
         <?php
                 include ("conexion.php");

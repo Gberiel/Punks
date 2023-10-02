@@ -1,0 +1,89 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilo para el formulario */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Estilo para las etiquetas de los campos */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"],
+select,
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para los botones */
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para los select */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para la etiqueta <div> alrededor de los campos select */
+div select {
+    width: 100%;
+}
+
+/* Estilo para el mensaje de confirmación o error */
+.message {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    color: #3c763d;
+    border-radius: 5px;
+}
+
+/* Estilo para el mensaje de error */
+.error {
+    background-color: #f2dede;
+    border: 1px solid #d9534f;
+    color: #d9534f;
+}
